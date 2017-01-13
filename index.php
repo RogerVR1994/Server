@@ -4,7 +4,7 @@
 	
 	$link= db_Connection();
 
-	$result= $link->query("SELECT * FROM bayer ORDER BY `Fecha` DESC");
+	$result= $link->query("SELECT * FROM bayer ORDER BY `Fecha` DESC LIMIT 10");
 ?>
 
 <html>
