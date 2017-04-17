@@ -4,7 +4,7 @@
 	
 	$link= db_Connection();
 
-	$result= $link->query("SELECT * FROM Lotes_Bayer ORDER BY `Fecha` DESC LIMIT 10");
+	$result= $link->query("SELECT * FROM Lote_Bayer ORDER BY `Fecha` DESC LIMIT 10");
 ?>
 
 <html>
