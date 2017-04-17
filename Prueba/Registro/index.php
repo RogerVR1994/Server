@@ -13,7 +13,7 @@
    </head>
 <body>
    <h1>Lotes Bayer</h1>
-   <a href="boton.php">Descarga de Base de Datos</a>
+   <a href="boton_registro.php">Descarga de Base de Datos</a>
    <table border="1" cellspacing="1" cellpadding="1">
 		<tr>
 			<td>&nbsp;Fecha&nbsp;</td>
