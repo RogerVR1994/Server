@@ -44,8 +44,8 @@
       <?php 
 		  if($result!==FALSE){
 		     while($row = $result->fetch_assoc()) {
-		        printf("<tr><td> &nbsp;%s </td><td> &nbsp;%s&nbsp; </td><td> &nbsp;%s&nbsp; </td></tr>", 
-		           $row["Fecha"], $row["Temperatura"]);
+		        printf("<tr><td> &nbsp;%s </td><td> &nbsp;%s&nbsp; </td></tr>", 
+		           $row["Fecha"], $row["Lote"]);
 		     }
 		     $link->close();
 		  }
